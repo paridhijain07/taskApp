@@ -13,7 +13,7 @@ const swaggerSpec = swaggerJSDoc({
       {
         url:
           process.env.NODE_ENV === 'production'
-            ? 'https://taskapp-1-cbic.onrender.com'
+            ? 'https://taskapp-j73b.onrender.com'
             : `http://localhost:${process.env.PORT || 5000}`,
       },
     ],
