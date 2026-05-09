@@ -99,7 +99,7 @@ const swaggerSpec = swaggerJSDoc({
     },
     security: [],
   },
-  apis: [path.join(__dirname, '../../src/routes/**/*.js')],
+  apis: ['./src/routes/**/*.js'],
 });
 
 module.exports = { swaggerSpec };
