@@ -56,9 +56,9 @@ app.get('/health', (req, res) => {
 // Routes
 // ==========================
 
-const authRoutes = require('./routes/v1/auth.routes');
-const userRoutes = require('./routes/v1/user.routes');
-const taskRoutes = require('./routes/v1/task.routes');
+const authRoutes = require('./src/routes/v1/auth.routes');
+const userRoutes = require('./src/routes/v1/user.routes');
+const taskRoutes = require('./src/routes/v1/task.routes');
 
 app.use('/api/v1/auth', authRoutes);
 app.use('/api/v1/users', userRoutes);
